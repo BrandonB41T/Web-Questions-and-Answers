@@ -1,0 +1,28 @@
+Questions
+
+1. What is HTTP?
+2. What is a URL?
+3. What is DNS?
+4. What is a query string?
+5. What are two HTTP verbs and how are they different?
+6. What is an HTTP request?
+7. What is an HTTP response?
+8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
+9. What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+
+
+Answers
+
+1. Hypertext Transfer Protocol; describes how computers communicate on a network
+2. Uniform Resourse Locator; directs you to an address for something on the internet
+3. Domain Name System; use it to convert between URLs(easy to read for people) and IP addresses for computers
+4. Part of the URL that passes certain values/arguments to a page
+5. Get: requests and searches for information or data on a server
+   POST: adds or changes some data on a server
+6. A request for something from a server that follows a protocol (HTTP)
+7. A response to an HTTP request that follows the sme HTTP protocol
+8. Specified type of information, labeled in a request or response
+   request exs: "Accept-Language", "Cookie"
+   response exs: "Last-Modified", "Date"
+9. It gets turned into an IP address, your computer then makes a request for that address's information and gets a response from the corresponding server. If the response comes back successful, your computer begins creating a DOM based on the information recieved, along with making any other necessary requests that come as a result of reading the initial response (typically HTML).
